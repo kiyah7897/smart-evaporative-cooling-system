@@ -283,4 +283,4 @@ void logState(){
     }
     prevState = current;
   }
-}. It has my peers names on it too because it was a group projhect
+}. 
