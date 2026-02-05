@@ -1,5 +1,28 @@
-//CPE301 Final Project
-//Isabel Sullivan, Ashton Hayes, Nik Sunga, Rakiyah Jackson
+/*********************************************************************
+ * CPE301 Final Project – Evaporative Cooling System
+ * Authors: Isabel Sullivan, Ashton Hayes, Nik Sunga, Rakiyah Jackson
+ *
+ * Description:
+ *   This Arduino program controls an evaporative cooling system.
+ *   It monitors temperature, humidity, and water level, and operates 
+ *   vents and a fan accordingly. The system uses a DHT11 sensor for 
+ *   temperature and humidity, a water level sensor, a stepper motor 
+ *   for vent control, and an RTC for timestamped event logging via UART.
+ *
+ * Features:
+ *   - State-based control: DISABLED, IDLE, RUNNING, ERROR
+ *   - LED indicators for system status
+ *   - Start, Stop, and Reset via buttons with interrupts
+ *   - Temperature-based fan control with hysteresis
+ *   - Water level monitoring with error handling
+ *   - Vent control using a stepper motor
+ *   - LCD display for real-time temperature and humidity readings
+ *   - UART logging of events and state changes with timestamps
+ *
+ * Notes:
+ *   - Uses millis() for non-blocking timing.
+ *   - UART and ADC initialized manually for low-level control.
+ *********************************************************************/
 //Includes
 #include <Arduino.h>
 #include <Stepper.h>
