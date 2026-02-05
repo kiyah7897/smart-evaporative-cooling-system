@@ -46,3 +46,22 @@ State changes are visually indicated using LEDs and logged with timestamps.
 
 ## Course Context
 Developed as a final project for **CPE 301 – Embedded Systems**.
+
+## Team Project Information
+
+This project was completed as a **group final project** for CPE 301 – Embedded Systems.
+
+**Team Members:**
+- Isabel Sullivan
+- Ashton Hayes
+- Nik Sunga
+- Rakiyah Jackson
+
+**My Contributions:**
+- Embedded firmware development in C/C++
+- Design and implementation of the finite state machine (Disabled, Idle, Running, Error)
+- Interrupt Service Routines (ISR) for start, stop, and reset buttons
+- Sensor integration (DHT11 temperature/humidity sensor and water level ADC)
+- Fan control logic with temperature thresholds
+- Stepper motor control for vent direction
+- UART-based event logging with real-time clock (RTC) timestamps
