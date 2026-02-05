@@ -23,6 +23,8 @@
  *   - Uses millis() for non-blocking timing.
  *   - UART and ADC initialized manually for low-level control.
  *********************************************************************/
+
+
 //Includes
 #include <Arduino.h>
 #include <Stepper.h>
