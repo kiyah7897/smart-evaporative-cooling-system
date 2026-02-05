@@ -50,10 +50,11 @@ Developed as a final project for **CPE 301 – Embedded Systems**.
 This project was completed as a **group final project** for CPE 301 – Embedded Systems.
 
 **Team Members:**
+- Rakiyah Jackson
 - Isabel Sullivan
 - Ashton Hayes
 - Nik Sunga
-- Rakiyah Jackson
+
 
 **My Contributions:**
 - Embedded firmware development in C/C++
