@@ -6,6 +6,9 @@ This project is an Arduino-based smart evaporative cooling system designed to pr
 cooling in hot, dry environments. The system monitors temperature, humidity, and water
 levels to safely and efficiently control airflow and cooling behavior in real time.
 
+## System Diagram
+![Evaporative Cooling System Diagram](evaporative_cooling_diagram.jpeg)
+
 ## Hardware Components
 - Arduino Mega 2560
 - DHT11 Temperature & Humidity Sensor
